@@ -1,0 +1,124 @@
+
+
+body	{
+	background: url("camp-daddy-back.png");
+	background-position: center;
+	padding: 200px;
+	color: #FF02E4;
+	font-size: 3vw;
+	font-family: 'Libre Caslon Display', serif;
+}
+
+h1 {
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 3em;
+	line-height: .9em;
+	color: #9EFE00;
+	font-weight: bold;
+}
+
+h2 {
+	color: #FF02E4;
+	font-size: 5vw;
+}
+
+
+h3 {
+color: white
+font-size: 1em;
+}
+
+#eyeballs {
+	text-align: center; 
+	font-size: 3vw;
+	margin-top: -100px;
+	animation: rotation 10s linear;
+}
+
+
+.center {
+	text-align: center;
+	border-style: solid;
+	border-color: pink;
+	border-width: 7px;
+	margin-top: -7px;
+}
+
+.yellow {
+	color: yellow;
+	padding-top: 20px;
+}
+
+.yellow p {
+	text-decoration: underline;
+}
+
+img {
+	
+	max-width: 90%;
+}
+
+#pinnacles {
+	background-image: url("pinnacles2.jpeg");
+	animation: rotation 10s linear;
+}
+
+#carrizo {
+	background-image: url("carrizo.jpg");
+	background-position: bottom;
+	animation: rotation 10s linear;
+}
+
+#rose {
+	background-image: url("rose-valley.jpg");
+	background-position: center;
+	animation: rotation 10s linear;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+@media only screen and (max-width: 736px) {  
+
+body	{
+	padding: 25px;
+
+}
+
+.center {
+	border-width: 3px;
+	margin-top: -3px;
+}
+
+#eyeballs {
+	font-size: 7vw;
+	margin-top: -0px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1440px) {  
+
+body	{
+	padding: 50px;
+	background-position: bottom;
+
+}
+
+#eyeballs {
+	font-size: 4vw;
+	margin-top: 0px;
+}
+
+
+}
